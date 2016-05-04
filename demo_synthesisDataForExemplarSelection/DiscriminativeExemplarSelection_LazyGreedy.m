@@ -90,7 +90,7 @@ for i = 1:length(gainList)
     end
     term3 = max(count,[],1);
     term3 = sum(term3);
-    term3 = term3/nClass + 1;
+    term3 = term3/nClass - 1;
     Hcur = Hcur + lambdaD*term3;
     %% term4
     term4 = sum(log(1+1));
@@ -109,7 +109,7 @@ for i = 1:length(gainList)
         end
         term5 = term5 + tmp;
     end
-    term5 = term5  + length(i);
+    term5 = term5  - length(i);
     Hcur = Hcur + lambdaB*term5; 
     %%
     gainList(i) = Hcur;
@@ -164,7 +164,7 @@ while flag
         end
         term3 = max(count,[],1);
         term3 = sum(term3);
-        term3 = term3/nClass + length(SelectAlreadyNew) ;
+        term3 = term3/nClass - length(SelectAlreadyNew) ;
         newF = newF + lambdaD*term3;
         
         % plus equal-size term (fourth one)
@@ -185,7 +185,7 @@ while flag
             end
             term5 = term5 + tmp;
         end
-        term5 = term5 + length(SelectAlreadyNew);
+        term5 = term5 - length(SelectAlreadyNew);
         newF = newF + lambdaB*term5;
         
         delta = newF-curF; %[!!!! perform gain !!!!!]

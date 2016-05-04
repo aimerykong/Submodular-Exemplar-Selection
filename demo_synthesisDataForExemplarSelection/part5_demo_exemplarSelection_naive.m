@@ -1,18 +1,28 @@
-% This code demonstrates the proposed objective function for discovering
-% the most informative receptive fields in images.
-% Specifically, a synthetic dataset is generated, including three cluters
-% to stand for three images, and the most correlated image regions or the
-% common foreground objects are represented by the points lying in the
-% intersection of the three clusters.
-%
-%
-% Readers can directly run main_syntheticData.m to see the results, and the
-% intermediate results/figures are automatically stored in 'figures' folder.
-%
-%
-% For details, readers are suggested to refer to the following report:
-%       Shu Kong, "Collaborative Receptive Field Learning", arXiv, 2014
-%
+% This is a demo for exemplar selection described in our paper
+% 
+% S. Kong, S. Punyasena, C. Fowlkes, "Spatially Aware Dictionary Learning 
+% and Coding for Fossil Pollen Identification", CVMI, Los Vegas, NV, (July 2016).
+% 
+% As introduced in the paper, the objective function is submodular and 
+% monotonically increasing that a greedy algorithm can solve efficiently. 
+% Moreover, a lazy greedy method is described for fast implementation. 
+% Comment/uncomment the lines in "exemplar selection" cell wil enable the 
+% standard greedy algorithm or the lazy greedy one.
+% 
+% Run the matlab codes named part5_demo_exemplarSelectionXXXXXX.m will 
+% directly output the results.
+% 
+% For more visualization, please look at the code and uncomment 
+% corresponding parts.
+% 
+% This demo will be updated when necessary.
+% 
+% Other demo codes in our fossil pollen project will be released soon, 
+% please stay tuned.
+% 
+% For questions, please contact
+% 
+% Shu Kong (Aimery) aimerykong AT gmail com
 % 
 % The code is writen by
 %           Shu Kong (Aimery)
@@ -20,6 +30,7 @@
 %           http://www.ics.uci.edu/~skong2/
 %           Dec. 2013, release version available on Jan. 13, 2014
 %              updated: Nov. 16, 2015
+%              updated: May. 03, 2015
 
 clear;
 close all;

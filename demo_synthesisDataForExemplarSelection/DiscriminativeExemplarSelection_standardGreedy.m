@@ -101,7 +101,7 @@ while flag
     end
     term3 = max(count,[],1);
     term3 = sum(term3);
-    term3 = term3/nClass + length(SelectAlready) ;
+    term3 = term3/nClass - length(SelectAlready) ;
     Hcur = Hcur + lambdaD*term3;
     
     %% plus equal-size term (fourth one)
@@ -122,7 +122,7 @@ while flag
         end
         term5 = term5 + tmp;
     end
-    term5 = term5  + length(SelectAlready);
+    term5 = term5  - length(SelectAlready);
     Hcur = Hcur + lambdaB*term5; 
   
     %% calculate the benefit gain
@@ -162,7 +162,7 @@ while flag
         end
         term3 = max(count,[],1);
         term3 = sum(term3);        
-        term3 = term3/nClass + length(PredictSelectSet(:,j)) ;
+        term3 = term3/nClass - length(PredictSelectSet(:,j)) ;
         term3ListTMP(j) = term3;
     end
     predictH = predictH + lambdaD*term3ListTMP;
@@ -192,7 +192,7 @@ while flag
             end
             term5 = term5 + tmp;
         end
-        term5 = term5 + length(PredictSelectSet(:,j));
+        term5 = term5 - length(PredictSelectSet(:,j));
         term5List(j) = term5;
     end
     predictH = predictH + lambdaB*term5List;
