@@ -1,5 +1,12 @@
 # Selecting Discriminative Points by Submodular Function
 
+
+![alt text](http://www.ics.uci.edu/~skong2/image/demo_combo.png "visualization")
+
+![alt text](http://www.ics.uci.edu/~skong2/image/demo_combo.png "visualization")
+
+![alt text](http://www.ics.uci.edu/~skong2/image/demo_combo.png "visualization")
+
  This is a demo for exemplar selection described in our paper
  
     @inproceedings{kong2016spatially,
