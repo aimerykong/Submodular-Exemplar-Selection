@@ -6,12 +6,6 @@
 ![](https://github.com/aimerykong/FossilPollenIdentification_demo_ExemplarSelectionOn2DSynthesisData/raw/master/figures/demo2.jpg)  |  ![](https://github.com/aimerykong/FossilPollenIdentification_demo_ExemplarSelectionOn2DSynthesisData/raw/master/figures/demo1.jpg)   |  ![](https://github.com/aimerykong/FossilPollenIdentification_demo_ExemplarSelectionOn2DSynthesisData/blob/master/figures/demo3.jpg)
 
 
-![](https://github.com/aimerykong/FossilPollenIdentification_demo_ExemplarSelectionOn2DSynthesisData/raw/master/figures/demo2.jpg)
-
-![](https://github.com/aimerykong/FossilPollenIdentification_demo_ExemplarSelectionOn2DSynthesisData/raw/master/figures/demo1.jpg)
-
-![](https://github.com/aimerykong/FossilPollenIdentification_demo_ExemplarSelectionOn2DSynthesisData/blob/master/figures/demo3.jpg)
-
 
  This is a demo for exemplar selection described in our paper
  
