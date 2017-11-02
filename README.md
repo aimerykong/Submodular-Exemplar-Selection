@@ -41,9 +41,7 @@
  Shu Kong (Aimery) aimerykong AT gmail com
  
  The code is writen by
+
            Shu Kong (Aimery)
-           aimerykong@gmail.com
-           http://www.ics.uci.edu/~skong2/
+
            Dec. 2013, release version available on Jan. 13, 2014
-              updated: Nov. 16, 2015
-              updated: May. 03, 2015
