@@ -1,11 +1,12 @@
 # Selecting Discriminative Points by Submodular Function
 
 
-![alt text](http://www.ics.uci.edu/~skong2/image/demo_combo.png "visualization")
+![](https://github.com/aimerykong/FossilPollenIdentification_demo_ExemplarSelectionOn2DSynthesisData/raw/master/figures/demo2.jpg)
 
-![alt text](http://www.ics.uci.edu/~skong2/image/demo_combo.png "visualization")
+![](https://github.com/aimerykong/FossilPollenIdentification_demo_ExemplarSelectionOn2DSynthesisData/raw/master/figures/demo1.jpg)
 
-![alt text](http://www.ics.uci.edu/~skong2/image/demo_combo.png "visualization")
+![](https://github.com/aimerykong/FossilPollenIdentification_demo_ExemplarSelectionOn2DSynthesisData/blob/master/figures/demo3.jpg)
+
 
  This is a demo for exemplar selection described in our paper
  
