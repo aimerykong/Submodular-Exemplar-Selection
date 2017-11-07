@@ -1,5 +1,8 @@
 # Selecting Discriminative Points by Submodular Function
 
+Please visit [project page](http://www.ics.uci.edu/~fowlkes/bioshape/index.html) to see how this technique is applied to cross-disciplinary scientific research, especially for pollen identification in phytology.
+
+
 
   points set-1             |     points set-2          |     points set-3
 :-------------------------:|:-------------------------:|:-------------------------:  
